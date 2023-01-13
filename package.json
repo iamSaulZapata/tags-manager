@@ -1,0 +1,21 @@
+{
+  "name": "tagsmanager",
+  "version": "1.0.0",
+  "description": "Web App Dev for Tags Manager ",
+  "main": "script.js",
+  "scripts": {
+    "build": " remove testing before running ???tailwindcss build src/input.css -o dist/output.css",
+    "tailwindcss": "testing remove ???build src/input.css -o dist/output.css"
+  },
+  "keywords": [
+    "tags"
+  ],
+  "author": "Saul Zapata",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "js2py": "^1.0.3-3"
+  }
+}

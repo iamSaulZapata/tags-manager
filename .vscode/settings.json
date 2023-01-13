@@ -1,0 +1,10 @@
+{
+     "liveServer.settings.port": 8082,
+     "liveServer.settings.file": "./src/index.html",
+     "liveServer.settings.CustomBrowser": "chrome",
+     "editor.fontSize": 12,
+     "scm.inputFontSize": 12,
+     "markdown.preview.fontSize": 12,
+     "preview.preview.fontSize": 12,
+     "tailwindCSS.rootFontSize": 12
+}
