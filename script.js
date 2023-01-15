@@ -219,13 +219,13 @@ function updateDOM() {
   });
   progressListArray = filterArray(progressListArray);
   // Complete Column
-  completeList.textContent = "";
+  // completeList.textContent = "";
   completeListArray.forEach((completeItem, index) => {
     createItemEl(completeList, 2, completeItem, index);
   });
   completeListArray = filterArray(completeListArray);
   // On Hold Column
-  onHoldList.textContent = "";
+  // onHoldList.textContent = "";
   onHoldListArray.forEach((onHoldItem, index) => {
     createItemEl(onHoldList, 3, onHoldItem, index);
   });
