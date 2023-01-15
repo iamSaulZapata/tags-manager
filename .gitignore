@@ -13,5 +13,7 @@ node_modules
 # Ignore SASS config files
 .sass-cache
 
-# Folders
+# Ignore Folders and its files
 not-used/
+dist/
+src/

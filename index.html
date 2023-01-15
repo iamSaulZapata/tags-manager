@@ -6,19 +6,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tags Manager</title>
         <!-- Favicon Image -->
-        <link rel="icon" type="image/jpeg" href="/SZ.png">
+        <link rel="icon" type="image/jpeg" href="/code.png">
         <link href="output.css" rel="stylesheet">
     </head>
 
 <body class="bg-gradient-to-r from-blue-300 to-lime-500 drop-shadow-2xl">
 
     <div>
-    <!-- /* Circles for the Colorful Backgound */ -->
+    <!-- circles for the colorful backgound -->
     <span class="dot" id="dotone"></span>
     <span class="dot" id="dottwo"></span>
     </div>
 
-    <!-- Outer container for Responsive Design -->
+    <!-- outer container for Responsive Design -->
     <div class="container p-10 flex flex-col items-center sm:w-16 md:w-32 lg:w-48">
           
     <!-- Over-all Container, drag and drop -->
@@ -62,7 +62,6 @@
                 <ul class="drag-item-list add-btn  text-black transition-all select-none -m-1 list-inside w-auto h-auto p-2 max-w-4xl text-xs font-serif font-semibold relative text-clip overflow-x-hidden rounded-3x text-left" id="backlog-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(0)">
                 </ul>
             </div>
-
         </li>
 
     <!-- Progress Column -->
@@ -104,89 +103,9 @@
     <!-- Tags Download Buttons -->
     <button id="download-button" class="container border-2 border-stone-300 rounded-lg font-serif p-2 overflow-y-auto bg-blue-50 max-w-3xl h-11 drop-shadow-[5px_5px_5px_rgba(82,71,71,72)] select-none cursor-pointer tracking-wide relative font-bold text-black text-base text-center m-1 -top-12 hover:bg-slate-300"><p class="drop-shadow-[5px_5px_5px_rgba(82,71,71,72)]">Download All Tags</p></button>
 
-    <button id="download-button2" class="container border-2 border-stone-300 rounded-lg font-serif p-2 overflow-y-auto bg-blue-50 max-w-3xl h-11 drop-shadow-[5px_5px_5px_rgba(82,71,71,72)] select-none cursor-pointer tracking-wide relative font-bold text-black text-base text-center pt-60 m-1 -top-12 hover:bg-slate-300"> <p class="drop-shadow-[5px_5px_5px_rgba(82,71,71,72)]">Download Active Tags</p></button>
+    <button id="download-button2" class="container border-2 border-stone-300 rounded-lg font-serif p-2 overflow-y-auto bg-blue-50 max-w-3xl h-11 drop-shadow-[5px_5px_5px_rgba(82,71,71,72)] select-none cursor-pointer tracking-wide relative font-bold text-black text-base text-center m-1 -top-12 hover:bg-slate-300"><p class="drop-shadow-[5px_5px_5px_rgba(82,71,71,72)]">Download Active Tags</p></button>
     </div>
 
-
-
-            
-        <!-- Complete Column -->
-            <!-- list element -->
-            <!-- <li class="drag-column complete-column"> -->
-                <!-- header with class of header -->
-                <!-- <span class="header"> -->
-                    <!--  -->
-                    <!-- <h1 class="font-bold text-black tracking-wide drop-shadow-[5px_5px_5px_rgba(82,71,71,72)] font-serif text-2xl text-center pt-8 pb-4 invisible">Complete</h1>
-                </span> -->
-                <!-- Complete Content -->
-                <!-- Parent Div will help with spacing -->
-                <!-- <div id="complete-content" class="custom-scroll border-2 border-stone-300 rounded-lg font-light font-serif p-2 overflow-y-auto bg-blue-50 w-auto max-w-4xl h-auto  drop-shadow-[5px_5px_5px_rgba(82,71,71,72)] text-left text-black select-none cursor-pointer tracking-wide relative invisible">
-                    <ul class="drag-item-list text-black transition-all select-none -m-1 list-inside w-auto h-auto p-2 max-w-4xl text-xs font-serif font-semibold relative text-clip overflow-x-hidden rounded-3x text-left" id="complete-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(2)">
-                        <li class="drag-item">Testing</li>
-                        <li class="drag-item">Testing</li>                     
-                        <li class="drag-item">Testing</li> -->
-                    <!-- </ul> -->
-                <!-- </div> -->
-                <!-- Add Button Group -->
-                <!-- <div class="add-btn-group invisible">
-                    <div class="add-btn" onclick="showInputBox(2)">
-                        <span class="plus-sign">+</span>
-                        <span>Add Item</span>
-                    </div> -->
-                    <!-- when we expand there will show a button to save -->
-                    <!-- <div class="add-btn solid" onclick="hideInputBox(2)">
-                        <span>Save Item</span>
-                    </div>
-                </div> -->
-                <!-- add new items to the list -->
-                <!-- <div class="add-container "> -->
-                    <!-- Not an iput but we can still add to it  -->
-                    <!-- <div class="add-item" contenteditable="true"></div> -->
-                <!-- </div> -->
-            <!-- </li> -->
-
-
-
-
-        <!-- On Hold Column -->
-            <!-- list element -->
-            <!-- <li class="drag-column on-hold-column"> -->
-                <!-- header with class of header -->
-                <!-- <span class="header"> -->
-                    <!--  -->
-                    <!-- <h1 class="font-bold text-black tracking-wide drop-shadow-[5px_5px_5px_rgba(82,71,71,72)] font-serif text-2xl text-center pt-8 pb-4 invisible">On Hold</h1>
-                </span> -->
-                <!-- On Hold Content -->
-                <!-- Parent Div will help with spacing -->
-                <!-- <div id="on-hold-content" class="custom-scroll border-2 border-stone-300 rounded-lg font-light font-serif p-2 overflow-y-auto bg-blue-50 w-auto max-w-4xl h-auto  drop-shadow-[5px_5px_5px_rgba(82,71,71,72)] text-left text-black select-none cursor-pointer tracking-wide relative invisible">
-                    <ul class="drag-item-list text-black transition-all select-none -m-1 list-inside w-auto h-auto p-2 max-w-4xl text-xs font-serif font-semibold relative text-clip overflow-x-hidden rounded-3x text-left" id="on-hold-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(3)"> -->
-                        <!-- <li class="drag-item">Testing</li>
-                        <li class="drag-item">Testing</li>                     
-                        <li class="drag-item">Testing</li>
-                        <li class="drag-item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo minus exercitationem itaque. Ratione, quia officia odit temporibus hic distinctio. Explicabo magni minus eum obcaecati blanditiis dicta illum, molestiae ut eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis saepe ipsa est, rerum eos praesentium sapiente expedita porro illum, quae autem dicta, odio maxime ratione obcaecati dolorem tenetur adipisci alias.   Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia temporibus veritatis voluptatem error illo commodi! Tempora quia magni libero, laudantium enim quasi nisi, minus soluta eveniet provident eum, architecto consequatur.</li> -->
-                    <!-- </ul>
-                </div> -->
-                <!-- Add Button Group -->
-                <!-- <div class="add-btn-group invisible">
-                    <div class="add-btn" onclick="showInputBox(3)">
-                        <span class="plus-sign">+</span>
-                        <span>Add Item</span>
-                    </div> -->
-                    <!-- when we expand there will show a button to save -->
-                    <!-- <div class="add-btn solid" onclick="hideInputBox(3)">
-                        <span>Save Item</span>
-                    </div>
-                </div> -->
-                <!-- add new items to the list -->
-                <!-- <div class="add-container"> -->
-                    <!-- Not an iput but we can still add to it  -->
-                    <!-- <div class="add-item" contenteditable="true"></div> -->
-                <!-- </div> -->
-            <!-- </li> -->
-        <!-- </ul> -->
-        <!-- <button onclick="downloadTags()">
-            Download Tags
-        </button> --> 
     </div> 
     </div>
     <script src="script.js"></script>
