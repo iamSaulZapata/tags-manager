@@ -15,4 +15,5 @@ node_modules
 
 # Ignore Folders and its files
 not-used/
-/src
+dist/
+src/
