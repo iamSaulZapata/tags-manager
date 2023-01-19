@@ -26,8 +26,9 @@
 
 <div align="center">
   <a href="https://github.com/iam-saul/tags-manager">
-  https://user-images.githubusercontent.com/85974941/213553688-3984211a-d92f-4536-b6ed-e3b4a7111614.mov
+  
   </a>
+  https://user-images.githubusercontent.com/85974941/213553688-3984211a-d92f-4536-b6ed-e3b4a7111614.mov
   <p align="center">The project Tags Manager entails the use of tags to organize/track them within two categories.
 </p>
 <br />
