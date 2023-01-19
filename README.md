@@ -26,13 +26,16 @@
 
 <div align="center">
   <a href="https://github.com/iam-saul/tags-manager">
-    <img src="images/screenshotTM.png" alt="Logo" width="500" height="400">
+  
   </a>
+  
   <p align="center">The project Tags Manager entails the use of tags to organize/track them within two categories.
 </p>
 <br />
 <br />
 </div>
+
+https://user-images.githubusercontent.com/85974941/213556086-852757f0-a210-45a6-a1c0-bee66193864e.mov
 
 # Built With
 
