@@ -9,7 +9,7 @@
 <div align="center">
 <br />
   <a href="https://github.com/iam-saul">
-    <img src="images/logoSZ.png" alt="Logo" width="80" height="80">
+    <img src="logoSZ.png" alt="Logo" width="80" height="80">
   </a>
 
   **<h1 align="center">Tags Manager</h1>**
@@ -17,12 +17,6 @@
   <p align="center">
     A Great Tags Manager to Keep Track of Your Tags
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo "in progress"
-
-https://user-images.githubusercontent.com/85974941/213553688-3984211a-d92f-4536-b6ed-e3b4a7111614.mov
-
-
-    </a>
   </p>
   <br />
 </div>
@@ -32,7 +26,7 @@ https://user-images.githubusercontent.com/85974941/213553688-3984211a-d92f-4536-
 
 <div align="center">
   <a href="https://github.com/iam-saul/tags-manager">
-    <img src="images/screenshotTM.png" alt="Logo" width="500" height="400">
+  https://user-images.githubusercontent.com/85974941/213553688-3984211a-d92f-4536-b6ed-e3b4a7111614.mov
   </a>
   <p align="center">The project Tags Manager entails the use of tags to organize/track them within two categories.
 </p>
