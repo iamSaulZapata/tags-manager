@@ -14,28 +14,23 @@
 
   **<h1 align="center">Tags Manager</h1>**
 
-  <p align="center">
-    A Great Tags Manager to Keep Track of Your Tags
-    <br />
+  <p align="center">A Great Tags Manager to Keep Track of Your Tags
   </p>
-  <br />
 </div>
+
+ <br />
 
 <!-- ABOUT THE PROJECT -->
 # About The Project
 
+https://user-images.githubusercontent.com/85974941/213556086-852757f0-a210-45a6-a1c0-bee66193864e.mov
+
 <div align="center">
-  <a href="https://github.com/iam-saul/tags-manager">
-  
-  </a>
-  
-  <p align="center">The project Tags Manager entails the use of tags to organize/track them within two categories.
-</p>
-<br />
-<br />
+  <p>The project Tags Manager entails the use of tags to organize/track them within two categories.
+  </p>
 </div>
 
-https://user-images.githubusercontent.com/85974941/213556086-852757f0-a210-45a6-a1c0-bee66193864e.mov
+<br />
 
 # Built With
 
@@ -45,9 +40,10 @@ https://user-images.githubusercontent.com/85974941/213556086-852757f0-a210-45a6-
   <br />
 
   <img src="images/tailwindcss.png" alt="Logo" width="150" height="50">
-  <br />
-  <br />
 </div>
+
+<br />
+<br />
 
 # Installation
 
