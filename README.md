@@ -9,7 +9,7 @@
 <div align="center">
 <br />
   <a href="https://github.com/iam-saul">
-    <img src="images/logoSZ.png" alt="Logo" width="80" height="80">
+    <img src="logoSZ.png" alt="Logo" width="80" height="80">
   </a>
 
   **<h1 align="center">Tags Manager</h1>**
@@ -17,8 +17,6 @@
   <p align="center">
     A Great Tags Manager to Keep Track of Your Tags
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo "in progress"
-    </a>
   </p>
   <br />
 </div>
