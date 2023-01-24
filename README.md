@@ -14,7 +14,7 @@
 
   **<h1 align="center">Tags Manager</h1>**
 
-  <p align="center">A Great Tags Manager to Keep Track of Your Tags
+  <p align="center">Tags Manager is a web application that allows users to easily manage and organize tags for their content. The application provides a user-friendly interface for creating, editing, and deleting tags, as well as for assigning them to content items.
   </p>
 </div>
 
@@ -25,14 +25,14 @@
 
 https://user-images.githubusercontent.com/85974941/213556086-852757f0-a210-45a6-a1c0-bee66193864e.mov
 
-<div align="center">
+<div align="left">
   <p>The project Tags Manager entails the use of tags to organize/track them within two categories.
   </p>
 </div>
 
 <br />
 
-# Built With
+# Technical Stack
 
 <div align="center">
   <img src="images/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.jpeg" alt="Logo" width="150" height="50">
@@ -45,9 +45,9 @@ https://user-images.githubusercontent.com/85974941/213556086-852757f0-a210-45a6-
 <br />
 <br />
 
-# Installation
+# Development
 
-1. Clone the repo
+1. Clone the repository
    ```sh
    git clone https://github.com/iam-saul/tags-manager.git
 2. Download repo
@@ -56,7 +56,11 @@ https://user-images.githubusercontent.com/85974941/213556086-852757f0-a210-45a6-
    ```
 <br />
    
-# Usage
+# How to Use
+
+1. Click on the "Add a new tag..." button to create a new tag
+2. Enter the name of the tag and click "Add"
+3. To assign a tag to a content item, Drag & Drop to content item
 
 Tags Manager is used to add and organize tags into two categories, "All Tags" and "Active Tags." Within each category you can edit tags, delete tags by clicking on the tag and deleting the tag name then clicking outside the tag category to delete that tag, also there is a Drag & Drop functionality. In addition, you can also download these tags by "Download All Tags" and or "Download Active Tags."
 
@@ -64,10 +68,11 @@ Tags Manager is used to add and organize tags into two categories, "All Tags" an
 
 # Features
 
-- Add new tags
+
+- Create, edit, and delete tags
+- Assign tags to content items
 - Drag & Drop tags
-- Edit tags
-- Delete tags
+- User-friendly interface
 - Download
     - All Tags
     - Active Tags
@@ -90,6 +95,10 @@ GitHub is an open source community and allows contributions to add new features,
 6. Open a Pull Request
 
 <br />
+
+# Conclusion
+
+Tags Manager is a simple and easy-to-use web application that makes it easy to keep your content organized and easy to find. With its user-friendly interface, it is suitable for anyone who wants to manage their content with tags. With the above instructions, you will be able to set up, customize and run this web application on your local machine, and deploy it easily on a hosting platform.
 
 # Contact
 
