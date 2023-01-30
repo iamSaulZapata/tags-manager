@@ -1,19 +1,31 @@
 {
-  "name": "tagsmanager",
-  "version": "1.0.0",
-  "description": "Web App Dev for Tags Manager ",
-  "main": "script.js",
-  "scripts": {
-  },
-  "keywords": [
-    "tags"
-  ],
-  "author": "Saul Zapata",
-  "license": "ISC",
-  "devDependencies": {
-    "tailwindcss": "^3.2.4"
-  },
-  "dependencies": {
-    "js2py": "^1.0.3-3"
-  }
+	"name": "tagsmanager",
+	"version": "1.0.0",
+	"description": "Web App Dev for Tags Manager ",
+	"main": "script.js",
+	"scripts": {
+		"dev": "lite-server",
+		"lite:c": "lite-server --c bs-chrome.json",
+		"build:css": "tailwindcss build -i ./src/input.css -o ./dist/output.css --watch"
+	},
+	"keywords": [
+		"tags"
+	],
+	"author": "Saul Zapata",
+	"license": "ISC",
+	"devDependencies": {
+		"lite-server": "^2.6.1",
+		"tailwindcss": "^3.2.4"
+	},
+	"dependencies": {
+		"js2py": "^1.0.3-3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/iam-saul/tags-manager.git"
+	},
+	"bugs": {
+		"url": "https://github.com/iam-saul/tags-manager/issues"
+	},
+	"homepage": "https://github.com/iam-saul/tags-manager#readme"
 }

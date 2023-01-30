@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Tags Manager</title>
+
+</head>
+
+<body class="bg-gradient-to-r from-blue-300 to-lime-500 drop-shadow-2xl flex flex-col items-center">
+    <div>
+        <!-- circles for the colorful backgound -->
+        <span class="dot" id="dotone"></span>
+        <span class="dot" id="dottwo"></span>
+    </div>
+    <!-- outer container for Responsive Design -->
+    <div class="container flex flex-col items-center sm:w-16 md:w-32 lg:w-48">
+        <!-- Over-all Container, drag and drop -->
+        <div class="drag-container list-none">
+            <!-- Backlog Column -->
+            <!-- list element -->
+            <li class="drag-column backlog-column px-2">
+                <h1 class="main-title text-5xl font-extrabold text-center
+                     color text-gray-600 tracking-wide drop-shadow-[5px_5px_5px_rgba(82,71,71,72)] font-serif p-6">Tags
+                    Manager</h1>
+                <span class="header"></span>
+                <!-- Add Button Group -->
+                <div class="add-btn-group grid place-items-center h-10">
+                    <!-- add new items to the list -->
+                    <div
+                        class="add-container rounded-lg font-light px-2 w-72 h-8 border-solid border-2 border-stone-300 text-black cursor-pointer tracking-wide drop-shadow-[5px_5px_5px_rgba(82,71,71,72)] font-serif hover:bg-slate-300 text-ellipsis bg-blue-50 absolute">
+                        <!-- Contenteditable input -->
+                        <div class="add-item focus:outline-none pt-1 w-full text-clip overflow-hidden"
+                            contenteditable="true">
+                        </div>
+                    </div>
+                    <!-- when we expand there will show button to add -->
+                    <div>
+                        <div class="add-btn solid font-light px-2 w-16 h-8 text-black cursor-pointer tracking-wide drop-shadow-[5px_5px_5px_rgba(82,71,71,72)] font-serif"
+                            onclick="hideInputBox(0)">
+                            <span class="pl-28 pt-1 select-none">+Add</span>
+                        </div>
+                    </div>
+                    <div class="add-btn border-solid border-2 border-stone-300 bg-blue-50 rounded-lg font-light pl-3 pt-1 w-72 text-center h-8 text-black select-none cursor-pointer tracking-wide drop-shadow-[5px_5px_5px_rgba(82,71,71,72)] font-serif hover:bg-slate-300 absolute"
+                        onclick="showInputBox(0)">
+                        <span>Click to Add Tag</span>
+                    </div>
+                </div>
+                <!-- All Tags text styling -->
+                <h1
+                    class="font-bold text-slate-700 tracking-wide drop-shadow-[5px_5px_5px_rgba(82,71,71,72)] font-serif text-2xl text-center pt-6">
+                    New Tags
+                </h1>
+                <!-- All Tags content (Backlog Content) -->
+                <!-- Parent Div will help with spacing -->
+                <div id="backlog-content"
+                    class="custom-scroll border-2 border-stone-300 rounded-lg font-light font-serif bg-blue-50 w-96 max-w-4xl h-auto drop-shadow-[5px_5px_5px_rgba(82,71,71,72)] text-left text-black select-none cursor-pointer tracking-wide relative">
+                    <ul role="list"
+                        class="drag-item-list add-btn text-black transition-all select-none -m-1 list-inside w-96 h-auto max-w-4xl text-xs font-serif font-semibold relative text-clip overflow-x-hidden rounded-2xl text-left tracking-widest p-2 drop-shadow-[5px_5px_5px_rgba(82,71,71,72)]"
+                        id="backlog-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(0)">
+                    </ul>
+                </div>
+            </li>
+            <!-- Progress Column -->
+            <!-- list element -->
+            <li class="drag-column backlog-column px-2">
+                <!-- header with class of header -->
+                <span class="header">
+                    <h1
+                        class="font-bold text-slate-700 tracking-wide drop-shadow-[5px_5px_5px_rgba(82,71,71,72)] font-serif text-2xl text-center pt-6">
+                        Active Tags</h1>
+                </span>
+                <!-- Progress Content -->
+                <!-- Parent Div will help with spacing -->
+                <div id="progress-content"
+                    class="custom-scroll border-2 border-stone-300 rounded-lg font-light font-serif bg-blue-50 w-96 max-w-4xl h-auto drop-shadow-[5px_5px_5px_rgba(82,71,71,72)] text-left text-black select-none cursor-pointer tracking-wide relative">
+                    <ul role="list"
+                        class="drag-item-list add-btn text-black transition-all select-none -m-1 list-inside w-96 h-auto max-w-4xl text-xs font-serif font-semibold relative text-clip overflow-x-hidden rounded-2xl text-left tracking-widest p-2 drop-shadow-[5px_5px_5px_rgba(82,71,71,72)]"
+                        id="progress-list" ondrop="drop(event)" ondragover="allowDrop(event)"
+                        ondragenter="dragEnter(1)">
+                    </ul>
+                </div>
+
+                <!-- Add Button Group -->
+                <!-- Leave this invisible -->
+                <div class="add-btn-group invisible" id="hide">
+                    <div class="add-btn" onclick="showInputBox(1)">
+                        <span class="plus-sign">+</span>
+                        <!-- "Add Item" goes inside "<span></span>" below -->
+                        <span>Add Item</span>
+                    </div>
+                    <!-- when we expand there will show a button to save -->
+                    <div class="add-btn solid" onclick="hideInputBox(1)">
+                        <!-- "Save Item" goes inside "<span></span>" below -->
+                        <span>Save Item</span>
+                    </div>
+                </div>
+                <!-- add new items to the list -->
+                <div class="add-container">
+                    <!-- contenteditable input -->
+                    <div class="add-item" contenteditable="true"></div>
+                </div>
+            </li>
+            <!-- Container Tags Download -->
+            <div class="container flex flex-col items-center">
+                <!-- Tags Download Buttons -->
+                <button
+                    class="border-solid border-2 border-stone-300 bg-blue-50 rounded-lg font-light px-2 text-center h-8 text-black select-none cursor-pointer tracking-wide drop-shadow-[5px_5px_5px_rgba(82,71,71,72)] font-serif hover:bg-slate-300 text-xs"
+                    id="download-button">
+                    <p>Download Tags</p>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="/src/script.js"></script>
+</body>
+
+</html>
