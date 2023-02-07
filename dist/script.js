@@ -1,4 +1,5 @@
-// Tags Download code below
+// Tags Download
+
 // Create empty string to store the data
 let data = "";
 

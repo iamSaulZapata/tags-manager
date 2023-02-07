@@ -4,26 +4,23 @@
 *** Don't forget to give the project a star! Thanks!
 -->
 
-<div align="center">
-<br />
+<div align="left">
 
 **<h1 align="center">Tags Manager</h1>**
 
-  <p align="center">Tags Manager is a web application that allows users to easily manage and organize tags for their content. The application provides a user-friendly interface for creating, editing, and deleting tags, as well as for assigning them to content items.
+  <p align="left">Tags Manager is a web application that allows users to easily manage and organize tags for their content. The application provides a user-friendly interface for creating, editing, and deleting tags, as well as for assigning them to content items.
   </p>
 </div>
 
  <br />
 
-<!-- ABOUT THE PROJECT -->
+# Tags Manager Demo
 
-# About The Project
-
-https://user-images.githubusercontent.com/85974941/213556086-852757f0-a210-45a6-a1c0-bee66193864e.mov
+https://youtu.be/YsuGET1S4UM
 
 <div align="left">
-  <p>The project Tags Manager entails the use of tags to organize/track them within two categories.
-  </p>
+<p>Tags Manager is used to add and organize tags into two categories, "All Tags" and "Active Tags." Within each category you can edit tags, delete tags by clicking on the tag and deleting the tag name then clicking outside the tag category to delete that tag, also there is a Drag & Drop functionality. In addition, you can also download these tags by "Download All Tags" and or "Download Active Tags."
+</p>
 </div>
 
 <br />
@@ -36,21 +33,17 @@ https://user-images.githubusercontent.com/85974941/213556086-852757f0-a210-45a6-
 
 <br />
 
-# Development
-
-1. Clone the repository or you can downloa it.
-   ```sh
-   git clone https://github.com/iam-saul/tags-manager.git
-   ```
-   <br />
-
 # How to Use
 
-1. Click on the "Click to Add Tag" button to create a new tag.
-2. Enter the name of the tag and click "+Add."
-3. Tags can be "Drag & Drop" to and from "New Tags" and "Active Tags."
+1. Click on the element input field button to create a new tag.
+2. Enter the name of the tag and click "+ Add."
+3. Tags can be "Drag & Drop" to and from "All Tags" and "Active Tags."
+4. Clone the repository or you can downloa it.
+   <br />
 
-Tags Manager is used to add and organize tags into two categories, "All Tags" and "Active Tags." Within each category you can edit tags, delete tags by clicking on the tag and deleting the tag name then clicking outside the tag category to delete that tag, also there is a Drag & Drop functionality. In addition, you can also download these tags by "Download All Tags" and or "Download Active Tags."
+```sh
+git clone https://github.com/iam-saul/tags-manager.git
+```
 
 <br />
 
@@ -61,16 +54,11 @@ Tags Manager is used to add and organize tags into two categories, "All Tags" an
 - Drag & Drop tags
 - User-friendly interface
 - Download Tags
+- Responsive Design
 
 <br />
 
-# Contributing
-
-GitHub is an open source community and allows contributions to add new features, learn/create and work together. Any contributions are very welcome, let's code! Don't forget to give the project a star, thanks.
-
-<br />
-
-# Suggestion
+# Contribution
 
 1. Fork the Project
 2. Clone the Repository
@@ -79,11 +67,17 @@ GitHub is an open source community and allows contributions to add new features,
 5. Push to the Branch (`git push origin featureName`)
 6. Open a Pull Request
 
+<p align="left">
+GitHub is an open source community and allows contributions to add new features or improvements, learn/create and work together.
+</p>
+
 <br />
 
 # Conclusion
 
-Tags Manager is a simple and easy-to-use web application that makes it easy to keep your content organized and easy to find. With its user-friendly interface, it is suitable for anyone who wants to manage their content with tags. With the above instructions, you will be able to set up, customize and run this web application on your local machine, and deploy it easily on a hosting platform.
+Tags Manager is a simple and easy-to-use web application that makes it easy to keep your content organized and easy to find. With its user-friendly interface, it is suitable for anyone who wants to manage their content with tags. With the above instructions, you will be able to set up, customize and run this web application on your local machine, and deploy it easily on a hosting platform. Any contributions are very welcome, let's code! Don't forget to give the project a star, thanks.
+
+<br />
 
 # Contact
 
